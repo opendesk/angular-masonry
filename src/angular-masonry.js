@@ -5,6 +5,7 @@
  */
 
 require('jquery-bridget');
+require('imagesloaded');
 require('masonry-layout');
 var angular = require('angular');
 
