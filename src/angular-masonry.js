@@ -3,7 +3,10 @@
  * Pascal Hartig, weluse GmbH, http://weluse.de/
  * License: MIT
  */
+
+require('jquery-bridget');
 require('masonry-layout');
+var angular = require('angular');
 
 var mod = angular.module('wu.masonry', []).controller('MasonryCtrl', function controller ($scope, $element, $timeout) {
 	var bricks = {};
